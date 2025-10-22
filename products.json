@@ -1,0 +1,82 @@
+[
+  {
+    "id": "p1",
+    "name": "PM Puttupodi 1kg",
+    "price": 80,
+    "weight": "1kg",
+    "description": "Soft, fresh Kerala-style puttu podi made from premium rice.",
+    "image": "images/puttu.jpg"
+  },
+  {
+    "id": "p2",
+    "name": "PM Rice Pathiri Podi 1kg",
+    "price": 70,
+    "weight": "1kg",
+    "description": "Smooth rice pathiri mix for soft, tasty pathiris.",
+    "image": "images/pathiri.jpg"
+  },
+  {
+    "id": "p3",
+    "name": "PM Chicken Mutton Masala 250g",
+    "price": 110,
+    "weight": "250g",
+    "description": "Rich taste, pure aroma — perfect for chicken and mutton curry.",
+    "image": "images/chicken-masala.jpg"
+  },
+  {
+    "id": "p4",
+    "name": "PM Chilli Powder 250g",
+    "price": 100,
+    "weight": "250g",
+    "description": "Bright red chilli powder with perfect flavor and heat.",
+    "image": "images/chilli.jpg"
+  },
+  {
+    "id": "p5",
+    "name": "PM Kabab Masala 250g",
+    "price": 90,
+    "weight": "250g",
+    "description": "Perfect spice mix for flavorful kababs.",
+    "image": "images/kabab.jpg"
+  },
+  {
+    "id": "p6",
+    "name": "PM Coriander Powder 200g",
+    "price": 60,
+    "weight": "200g",
+    "description": "Freshly ground coriander with natural aroma.",
+    "image": "images/coriander.jpg"
+  },
+  {
+    "id": "p7",
+    "name": "PM Turmeric Powder 200g",
+    "price": 80,
+    "weight": "200g",
+    "description": "Pure turmeric powder for color and health.",
+    "image": "images/turmeric.jpg"
+  },
+  {
+    "id": "p8",
+    "name": "PM Pepper Curry Masala 200g",
+    "price": 120,
+    "weight": "200g",
+    "description": "Spicy pepper mix for flavorful curries.",
+    "image": "images/pepper-masala.jpg"
+  },
+  {
+    "id": "p9",
+    "name": "PM Pepper Powder 200g",
+    "price": 140,
+    "weight": "200g",
+    "description": "Strong aromatic black pepper powder for all dishes.",
+    "image": "images/pepper-powder.jpg"
+  },
+  {
+    "id": "p10",
+    "name": "PM Garam Masala 200g",
+    "price": 160,
+    "weight": "200g",
+    "description": "Aromatic blend of Indian spices for rich curries.",
+    "image": "images/garam-masala.jpg"
+  }
+]

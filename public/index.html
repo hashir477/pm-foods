@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>PM Foods</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* minimal styling for controls */
+    .product { display:inline-block; width:260px; margin:12px; vertical-align:top; }
+    .product .card { padding:14px; background:#fff; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,.08); }
+    .product img { width:200px; height:200px; object-fit:cover; display:block; margin:0 auto 8px; }
+    .qty-controls { display:flex; align-items:center; gap:8px; margin-top:8px; }
+    .qty-controls button { width:30px; height:30px; }
+    #cart-area { position:fixed; right:20px; top:120px; text-align:center; }
+    #placeOrder { padding:10px 18px; background:#4a1f1f; color:white; border:none; border-radius:6px; cursor:pointer; }
+    #whatsappNumber { width:180px; padding:6px; margin-bottom:8px; }
+  </style>
+</head>
+<body>
+  <h1 style="text-align:center; margin-top:30px;">Welcome to PM Foods</h1>
+
+  <div id="products" style="padding:30px; max-width:1100px; margin:0 auto;"></div>
+
+  <div id="cart-area">
+  <input id="customerName" placeholder="Enter your name" />
+  <p>Total: ₹<span id="cartTotal">0</span></p>
+  <button id="placeOrder">Place Order</button>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
