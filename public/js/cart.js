@@ -65,5 +65,26 @@ document.getElementById("placeOrder").addEventListener("click", () => {
   const phone = "919481086383"; // your WhatsApp number
   window.open(`https://wa.me/${phone}?text=${whatsappMessage}`, "_blank");
 });
+// --- 🧹 Clear the cart after placing the order ---
+
+  // Remove all items from localStorage
+  localStorage.removeItem("cart");
+
+  // Reset floating cart count (if visible)
+  const cartCount = document.getElementById("cartCount");
+  if (cartCount) cartCount.textContent = "0";
+
+  // Show “empty cart” message in the cart list container
+  const cartItems = document.getElementById("cartItems") || document.querySelector(".cart-items");
+  if (cartItems) {
+    cartItems.innerHTML = "<p style='padding:1rem;'>Your cart is empty 🛒</p>";
+  }
+
+  // Optional: reset total display
+  const totalEl = document.getElementById("cartTotal");
+  if (totalEl) totalEl.textContent = "0";
+
+  // Optional: give feedback
+  alert("✅ Order placed! Cart cleared.");
 
 loadCart();
