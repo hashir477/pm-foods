@@ -1,82 +1,117 @@
 [
   {
-    "id": "p1",
-    "name": "PM Puttupodi 1kg",
-    "price": 80,
-    "weight": "1kg",
+    "id": 1,
+    "name": "PM Puttupodi",
+    "image": "/images/puttu.jpg",
     "description": "Soft, fresh Kerala-style puttu podi made from premium rice.",
-    "image": "images/puttu.jpg"
+    "variants": [
+      { "size": "1 kg", "price": 80 }
+    ]
   },
   {
-    "id": "p2",
-    "name": "PM Rice Pathiri Podi 1kg",
-    "price": 70,
-    "weight": "1kg",
+    "id": 2,
+    "name": "PM Rice Pathiri Podi",
+    "image": "/images/pathiri.jpg",
     "description": "Smooth rice pathiri mix for soft, tasty pathiris.",
-    "image": "images/pathiri.jpg"
+    "variants": [
+      { "size": "1 kg", "price": 70 }
+    ]
   },
   {
-    "id": "p3",
-    "name": "PM Chicken Mutton Masala 250g",
-    "price": 110,
-    "weight": "250g",
-    "description": "Rich taste, pure aroma — perfect for chicken and mutton curry.",
-    "image": "images/chicken-masala.jpg"
+    "id": 11,
+    "name": "PM Pindi  Podi",
+    "image": "/images/pindi.jpg",
+    "description": "Smooth rice pathiri mix for soft, tasty pathiris.",
+    "variants": [
+      { "size": "1 kg", "price": 70 }
+    ]
   },
   {
-    "id": "p4",
-    "name": "PM Chilli Powder 250g",
-    "price": 100,
-    "weight": "250g",
-    "description": "Bright red chilli powder with perfect flavor and heat.",
-    "image": "images/chilli.jpg"
+    "id": 3,
+    "name": "PM Chicken Mutton Masala",
+    "image": "/images/chicken-masala.jpg",
+    "description": "Rich taste and pure aroma — perfect for chicken and mutton curry.",
+    "variants": [
+      { "size": "250 g", "price": 110 },
+      { "size": "500 g", "price": 220 }
+    ]
   },
   {
-    "id": "p5",
-    "name": "PM Kabab Masala 250g",
-    "price": 90,
-    "weight": "250g",
-    "description": "Perfect spice mix for flavorful kababs.",
-    "image": "images/kabab.jpg"
+    "id": 4,
+    "name": "PM Chilli Powder",
+    "image": "/images/chilli.jpg",
+    "description": "Bright red chilli powder that enhances the flavor and heat of your dishes.",
+    "variants": [
+      { "size": "250 g", "price": 100 },
+      { "size": "500 g", "price": 200 }
+    ]
   },
   {
-    "id": "p6",
-    "name": "PM Coriander Powder 200g",
-    "price": 60,
-    "weight": "200g",
-    "description": "Freshly ground coriander with natural aroma.",
-    "image": "images/coriander.jpg"
+    "id": 5,
+    "name": "PM Turmeric Powder",
+    "image": "/images/turmeric.jpg",
+    "description": "Pure and natural turmeric powder packed with color and aroma.",
+    "variants": [
+      { "size": "100 g", "price": 40 },
+      { "size": "200 g", "price": 80 },
+      { "size": "500 g", "price": 200 }
+    ]
   },
   {
-    "id": "p7",
-    "name": "PM Turmeric Powder 200g",
-    "price": 80,
-    "weight": "200g",
-    "description": "Pure turmeric powder for color and health.",
-    "image": "images/turmeric.jpg"
+    "id": 6,
+    "name": "PM Coriander Powder",
+    "image": "/images/coriander.jpg",
+    "description": "Ground from premium coriander seeds for a perfect flavor balance.",
+    "variants": [
+      { "size": "100 g", "price": 30 },
+      { "size": "200 g", "price": 60},
+      { "size": "500 g", "price": 150}
+    ]
   },
   {
-    "id": "p8",
-    "name": "PM Pepper Curry Masala 200g",
-    "price": 120,
-    "weight": "200g",
-    "description": "Spicy pepper mix for flavorful curries.",
-    "image": "images/pepper-masala.jpg"
-  },
-  {
-    "id": "p9",
-    "name": "PM Pepper Powder 200g",
-    "price": 140,
-    "weight": "200g",
-    "description": "Strong aromatic black pepper powder for all dishes.",
-    "image": "images/pepper-powder.jpg"
-  },
-  {
-    "id": "p10",
-    "name": "PM Garam Masala 200g",
-    "price": 160,
-    "weight": "200g",
+    "id": 7,
+    "name": "PM Garam Masala",
+    "image": "/images/garam-masala.jpg",
     "description": "Aromatic blend of Indian spices for rich curries.",
-    "image": "images/garam-masala.jpg"
+    "variants": [
+      { "size": "100 g", "price": 80 },
+      { "size": "200 g", "price": 160 },
+      { "size": "500 g", "price": 400 }
+
+
+    ]
+  },
+  {
+    "id": 8,
+    "name": "PM Pepper Curry Masala",
+    "image": "/images/pepper-masala.jpg",
+    "description": "Special pepper curry blend for flavorful spicy gravies.",
+    "variants": [
+      { "size": "100 g", "price": 60 },
+      { "size": "200 g", "price": 120},
+      { "size": "500 g", "price": 300}
+    ]
+  },
+  {
+    "id": 9,
+    "name": "PM Pepper powder",
+    "image": "/images/pepper-powder.jpg",
+    "description": "",
+    "variants": [
+      { "size": "100 g", "price": 140 },
+      { "size": "200 g", "price": 280 },
+      { "size": "500 g", "price": 700 }
+    
+    ]
+  },
+  {
+    "id": 10,
+    "name": "PM Chicken Kabab Masala",
+    "image": "/images/kabab.jpg",
+    "description": "Perfect masala blend for delicious chicken kababs with authentic flavor.",
+    "variants": [
+      { "size": "250 g", "price": 90 },
+      { "size": "500 g", "price": 180 }
+    ]
   }
 ]

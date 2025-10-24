@@ -4,30 +4,80 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>PM Foods</title>
-  <link rel="stylesheet" href="style.css">
-  <style>
-    /* minimal styling for controls */
-    .product { display:inline-block; width:260px; margin:12px; vertical-align:top; }
-    .product .card { padding:14px; background:#fff; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,.08); }
-    .product img { width:200px; height:200px; object-fit:cover; display:block; margin:0 auto 8px; }
-    .qty-controls { display:flex; align-items:center; gap:8px; margin-top:8px; }
-    .qty-controls button { width:30px; height:30px; }
-    #cart-area { position:fixed; right:20px; top:120px; text-align:center; }
-    #placeOrder { padding:10px 18px; background:#4a1f1f; color:white; border:none; border-radius:6px; cursor:pointer; }
-    #whatsappNumber { width:180px; padding:6px; margin-bottom:8px; }
-  </style>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Optional: Google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1 style="text-align:center; margin-top:30px;">Welcome to PM Foods</h1>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand">
+        <div class="logo-circle">PM</div>
+        <div>
+          <h1 class="brand-name">PM Foods</h1>
+          <p class="brand-tag">Pure Taste · Perfect Blend</p>
+        </div>
+      </div>
+      <div class="header-cta">
+        <button id="whatsAppContact" class="btn-outline">Contact</button>
+      </div>
+    </div>
+  </header>
 
-  <div id="products" style="padding:30px; max-width:1100px; margin:0 auto;"></div>
+  <main>
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="hero-text">
+          <h2>Bring authentic flavours to your kitchen</h2>
+          <p>Fresh spices, thoughtfully blended — for tasty, home-style meals every day.</p>
+          <a href="#products" class="btn-primary">Shop Products</a>
+        </div>
+        <div class="hero-image">
+        </div>
+      </div>
+    </section>
 
-  <div id="cart-area">
-  <input id="customerName" placeholder="Enter your name" />
-  <p>Total: ₹<span id="cartTotal">0</span></p>
-  <button id="placeOrder">Place Order</button>
+    <section id="products" class="products-section">
+      <div class="section-head">
+        <h3>Our Products</h3>
+        <p>Choose quality ingredients for every meal.</p>
+      </div>
+
+      <div id="productList" class="product-grid">
+        <!-- product cards inserted here by app.js -->
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="about-inner">
+        <h3>About PM Foods</h3>
+        <p>PM Foods brings traditional recipes and fresh-quality spices from our kitchen to yours. Small batches, pure ingredients, honest taste.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>© <span id="year"></span> PM Foods — All rights reserved.</p>
+      <p>Follow us on <strong>WhatsApp</strong> for orders & support.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+  <script>
+    // small helpers
+    document.getElementById('year').innerText = new Date().getFullYear();
+    document.getElementById('whatsAppContact').addEventListener('click', () => {
+      // open your PM Foods whatsapp number (change below)
+      const pmNumber = '919481086383';
+      window.open(`https://wa.me/${pmNumber}`, '_blank');
+    });
+  </script>
+</body>
+<!-- 🛒 Floating Cart Icon -->
+<div id="cartIcon" class="floating-cart" onclick="window.location.href='cart.html'">
+  🛒
+  <span id="cartCount">0</span>
 </div>
 
-<script src="app.js"></script>
-</body>
-</html>
+<script src="js/cart-count.js"></script>
