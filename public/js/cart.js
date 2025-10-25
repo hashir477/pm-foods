@@ -66,3 +66,4 @@ document.getElementById("placeOrder").addEventListener("click", () => {
   const phone = "919481086383"; // your WhatsApp number
   window.open(`https://wa.me/${phone}?text=${whatsappMessage}`, "_blank");
 });
+loadCart();
