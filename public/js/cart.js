@@ -65,22 +65,3 @@ document.getElementById("placeOrder").addEventListener("click", () => {
   const phone = "919481086383"; // your WhatsApp number
   window.open(`https://wa.me/${phone}?text=${whatsappMessage}`, "_blank");
 });
-// --- 🧹 Clear the cart AFTER WhatsApp opens ---
-  setTimeout(() => {
-    localStorage.removeItem("cart");
-
-    const cartCount = document.getElementById("cartCount");
-    if (cartCount) cartCount.textContent = "0";
-
-    const cartItems =
-      document.getElementById("cartItems") || document.querySelector(".cart-items");
-    if (cartItems) {
-      cartItems.innerHTML = "<p style='padding:1rem;'>Your cart is empty 🛒</p>";
-    }
-
-    const totalEl = document.getElementById("cartTotal");
-    if (totalEl) totalEl.textContent = "0";
-
-    alert("✅ Order placed! Cart cleared.");
-    loadCart(); // refresh cart
-  }, 3000); // 3 seconds delay (change if you want)
