@@ -1,3 +1,4 @@
+console.log("✅ Cart.js is loaded successfully!");
 function loadCart() {
   const cartContainer = document.getElementById("cartContainer");
   let cart = JSON.parse(localStorage.getItem("cart")) || [];
