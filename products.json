@@ -87,9 +87,9 @@
     "image": "/images/pepper-masala.jpg",
     "description": "Special pepper curry blend for flavorful spicy gravies.",
     "variants": [
-      { "size": "100 g", "price": 60 },
-      { "size": "200 g", "price": 120},
-      { "size": "500 g", "price": 300}
+      { "size": "100 g", "price": 70 },
+      { "size": "200 g", "price": 140},
+      { "size": "500 g", "price": 350}
     ]
   },
   {
@@ -98,9 +98,9 @@
     "image": "/images/pepper-powder.jpg",
     "description": "",
     "variants": [
-      { "size": "100 g", "price": 140 },
-      { "size": "200 g", "price": 280 },
-      { "size": "500 g", "price": 700 }
+      { "size": "100 g", "price": 120 },
+      { "size": "200 g", "price": 240 },
+      { "size": "500 g", "price": 600 }
     
     ]
   },
