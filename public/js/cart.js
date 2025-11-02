@@ -88,6 +88,27 @@ document.getElementById("submitDetails").addEventListener("click", () => {
 
   const phone = "919481086383"; // Your WhatsApp number
   window.open(`https://wa.me/${phone}?text=${whatsappMessage}`, "_blank");
+  // 🧹 Clear the cart after order is placed
+localStorage.removeItem("cart");
+
+// Update the cart display
+const cartItems = document.getElementById("cartItems");
+if (cartItems) {
+  cartItems.innerHTML = "<p>Your cart is empty 🛒</p>";
+}
+
+// Reset the total
+const cartTotal = document.getElementById("cartTotal");
+if (cartTotal) {
+  cartTotal.textContent = "0";
+}
+
+// Reset floating cart count
+const cartCount = document.getElementById("cartCount");
+if (cartCount) cartCount.textContent = "0";
+setTimeout(() => {
+  window.location.href = "index.html";
+}, 2000);
 
   // Hide popup after submit
   document.getElementById("orderPopup").classList.add("hidden");
