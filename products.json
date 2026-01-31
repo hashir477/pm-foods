@@ -32,8 +32,8 @@
     "image": "/images/chicken-masala.jpg",
     "description": "Rich taste and pure aroma — perfect for chicken and mutton curry.",
     "variants": [
-      { "size": "250 g", "price": 110 },
-      { "size": "500 g", "price": 220 }
+      { "size": "250 g", "price": 140 },
+      { "size": "500 g", "price": 280 }
     ]
   },
   {
@@ -42,8 +42,8 @@
     "image": "/images/chilli.jpg",
     "description": "Bright red chilli powder that enhances the flavor and heat of your dishes.",
     "variants": [
-      { "size": "250 g", "price": 100 },
-      { "size": "500 g", "price": 200 }
+      { "size": "250 g", "price": 140 },
+      { "size": "500 g", "price": 280 }
     ]
   },
   {
@@ -52,9 +52,9 @@
     "image": "/images/turmeric.jpg",
     "description": "Pure and natural turmeric powder packed with color and aroma.",
     "variants": [
-      { "size": "100 g", "price": 40 },
-      { "size": "200 g", "price": 80 },
-      { "size": "500 g", "price": 200 }
+      { "size": "100 g", "price": 45 },
+      { "size": "200 g", "price": 90 },
+      { "size": "500 g", "price": 225 }
     ]
   },
   {
@@ -100,7 +100,8 @@
     "variants": [
       { "size": "100 g", "price": 120 },
       { "size": "200 g", "price": 240 },
-      { "size": "500 g", "price": 600 }
+      { "size": "500 g", "price": 550 },
+      { "size": "1 kg", "price": 1100 }
     
     ]
   },
@@ -110,8 +111,10 @@
     "image": "/images/kabab.jpg",
     "description": "Perfect masala blend for delicious chicken kababs with authentic flavor.",
     "variants": [
-      { "size": "250 g", "price": 90 },
-      { "size": "500 g", "price": 180 }
+      { "size": "250 g", "price": 110 },
+      { "size": "500 g", "price": 220 },
+      { "size": "1 kg", "price": 440 }
+      
     ]
   }
 ]
