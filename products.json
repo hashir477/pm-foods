@@ -32,8 +32,8 @@
     "image": "/images/chicken-masala.jpg",
     "description": "Rich taste and pure aroma — perfect for chicken and mutton curry.",
     "variants": [
-      { "size": "250 g", "price": 140 },
-      { "size": "500 g", "price": 280 }
+      { "size": "250 g", "price": 175 },
+      { "size": "500 g", "price": 350 }
     ]
   },
   {
@@ -42,8 +42,8 @@
     "image": "/images/chilli.jpg",
     "description": "Bright red chilli powder that enhances the flavor and heat of your dishes.",
     "variants": [
-      { "size": "250 g", "price": 140 },
-      { "size": "500 g", "price": 280 }
+      { "size": "250 g", "price": 170 },
+      { "size": "500 g", "price": 340 }
     ]
   },
   {
