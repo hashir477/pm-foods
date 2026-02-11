@@ -704,3 +704,7 @@ button#addToCart:hover {
     transform: scale(1);
   }
 }
+select option{color: black;
+}
+select options:checked{font-weight:bold;
+}

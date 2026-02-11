@@ -33,7 +33,8 @@
     "description": "Rich taste and pure aroma — perfect for chicken and mutton curry.",
     "variants": [
       { "size": "250 g", "price": 175 },
-      { "size": "500 g", "price": 350 }
+      { "size": "500 g", "price": 350 },
+      { "size": "1 kg", "price": 650,"discount":7 } 
     ]
   },
   {
