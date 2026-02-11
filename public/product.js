@@ -26,7 +26,7 @@ async function loadProduct(){
 
         <label for="variantSelect">Choose Quantity:</label>
         <select id="variantSelect">
-          ${product.variants.map(v=>`<option value="${v.price}">${v.size === "1kg"?" (7% discount)" :""}</option>`).join("")})}
+          ${product.variants.map(v => `<option value="${v.price}">${v.size}</option>`).join("")}
         </select>
 
         <p><strong style="color:#000000; font-size:1.2rem;">Price:</strong> ₹<span id="price" style="font-weight:700; color:#000000; font-size:1.2rem;">${product.variants[0].price}</span></p>
